@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 
 # Load credentials
 creds = service_account.Credentials.from_service_account_file(
-    "/Users/johnhousley/Downloads/repos/BigQuery/kuiu-klaviyodata-to-lawyer-1651249f5a7f.json",
+    "/Users/johnhousley/Downloads/kuiu-klaviyodata-to-lawyer-1651249f5a7f.json",
     scopes=["https://www.googleapis.com/auth/cloud-platform"]
 )
 

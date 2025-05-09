@@ -2,7 +2,7 @@ from google.cloud import bigquery
 import pandas as pd
 
 # Path to your service account JSON
-SERVICE_ACCOUNT_FILE = '/Users/johnhousley/Downloads/repos/BigQuery/kuiu-klaviyodata-to-lawyer-1651249f5a7f.json'
+SERVICE_ACCOUNT_FILE = '/Users/johnhousley/Downloads/kuiu-klaviyodata-to-lawyer-1651249f5a7f.json'
 
 # Initialize BigQuery client
 client = bigquery.Client.from_service_account_json(SERVICE_ACCOUNT_FILE)
